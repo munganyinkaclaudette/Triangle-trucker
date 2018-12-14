@@ -1,0 +1,72 @@
+h1{
+    color: yellowgreen;
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: fantasy;
+  }
+  h2{
+    color: yellowgreen;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 30px
+  }
+  h3{
+    color: yellowgreen;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 30px
+  }
+  h4{
+    color: yellowgreen;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 30px
+  }
+  h5{
+    color: yellowgreen;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 30px
+  }
+  h6{
+    color:yellowgreen;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 30px
+  }
+  h7{
+    color:yellowgreen;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 30px
+  }
+  body{
+    background-color: gray;
+    font-size: 25px;
+    text-align: center;
+  }
+  ol{
+    font-style: italic;
+    float: center;
+    font-weight: normal;
+  
+  }
+  button{
+     background-color: #4CAF50;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: flow-root;
+     font-size: 25px;
+  }
+  
