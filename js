@@ -1,9 +1,9 @@
 function getResult(){
-var hypotenuse= parseFloat(prompt("side hypotenuse"));
-var opposite = parseFloat(prompt("side opposite"));
-var adjacent = parseFloat(prompt("side adjacent"));
-/* var determine = function(hypotenuse,opposite, adjacent){
-if (hypotenuse === opposite && opposite === adjacent && hypotenuse === adjacent){
+var firstside= parseFloat(prompt("first side"));
+var secondside = parseFloat(prompt("second side"));
+var thirdside= parseFloat(prompt("third side"));
+/* var determine = function(first side,second side, third side){
+if (first side===  second side=== second side === adjacent){
 alert("Equilateral");
 }
 else if ((hypotenuse === opposite && opposite === adjacent) (hypotenuse != adjacent && opposite !== adjacent));

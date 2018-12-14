@@ -7,37 +7,40 @@
   </head>
   <body>
     <div>
-      <h1>Triangle Tracker Program</h1>
+      <h1>Triangle-Tracker </h1>
       <h2>Input</h2>
 
       <h3>Definition of a triangle</h3>
         <p>a plane figure with three straight sides and three angles.</p>
       <h4>Types of a triangle</h4>
         <p>Equilateral<br>Iscoceless<br>Scalene</p>
-      <h5>Equilateral</h5>
+        <h5>Equilateral</h5>
         <p>A triangle that has all sides equal</p>
+      <h6>Iscoceless</h6>
+        <p>a triangle in which two sides have the same length</p>
+      <h7>Scalene</h7>
+        <p>A scalene triangle is a triangle that has three unequal sides</p>
+        <p>please inter the first side of triangle</p>
         <div class="Triangle">
           <form id="formOne" class="" action="index.html" method="post">
             <div class="form-group">
               <label for="side1">Side One</label>
               <input id="side1" class="form-control" type="number">   
-      <h6>Iscoceless</h6>
-        <p>a triangle in which two sides have the same length</p>
-        <div class="form-group">
-          <label for="side2">Side Two</label>
-          <input id="side2" class="form-control" type="number">
-        </div>
-      <h7>Scalene</h7>
-        <p>A scalene triangle is a triangle that has three unequal sides</p>
-        <script src="triangle.js"></script>
-        <div class="form-group">
-          <label for="side3">Side Three</label>
-          <input id="side3" class="form-control" type="number">
-        </div>
-      <script src="triangle.js"></script>
+            </div>
+            <p>please inter the second side of triangle</p>
+            <div class="form-group">
+              <label for="side2">Side Two</label>
+              <input id="side2" class="form-control" type="number">
+            </div>
+            <p>please inter the third side of triangle</p> 
+            <div class="form-group">
+              <label for="side3">Side Three</label>
+              <input id="side3" class="form-control" type="number">
+            </div>
+      <script src="js"></script>
   </div>
   <div class="wrapper">
-    <button type = "button" onclick = "getResult()">Try It Out</button>
+    <button type = "button" onclick = "getResult()">Submit</button>
   </div>
 </div>
 
